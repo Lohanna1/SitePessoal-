@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(117, 163, 231);
+  }
+  #container{display: block;}
+  
+  img {
+    
+    border-radius: 50%;
+  }
+
+  .gallery{
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+       
+  }
+
+  .borda{
+    border: 5px solid #e6b8b8e3;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .name{
+    display: flex;
+    justify-content: center;
+    color: #e6b8b8e3;
+  }
+
+  .Contato{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+
+ 
+ 
+  :root {
+    --body-bg-color: #b3a0a0;
+    --purple: #fffbfb;
+  }
+  
+  
+  
+  .linktree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+  }
+  
+  .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+    margin-top: 150px;
+  
+  }
+  .top img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid;
+    
+  }
+  
+  .linktree h1{
+    font-size: 2rem;
+  }
+  
+  .linktree a{
+    background-color: var(--accentcolor);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s linear;
+  }
+  
+  .box{
+    border: solid 2px var(--purple);
+  }
+  .linktree a:hover {
+    background-color: var(--bgcolor);
+    color: var(--accentcolor);
+  }
+  
+  @media (min-width: 1024px) {
+    .linktree {
+        width: 40vw;
+    }
+  }
+  
+  
+  
+  .assets{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+  
+    }
+  
+    .boxas{
+      margin:10px;
+    
+      padding: 10px;
+    }
